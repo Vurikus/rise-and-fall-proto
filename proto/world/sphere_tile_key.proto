@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto.world;
+
+import "proto/common/api_vector3.proto";
+
+message SphereTileKey {
+  string id = 1;
+  uint32 index = 2;
+  proto.common.ApiVector3 center = 3;
+  repeated string neighbor_ids = 4;
+}
