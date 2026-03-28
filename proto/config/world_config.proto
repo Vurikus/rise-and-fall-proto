@@ -3,6 +3,8 @@ syntax = "proto3";
 package proto.config;
 
 option java_multiple_files = true;
+option java_package = "proto.config";
+option java_outer_classname = "WorldConfiguration";
 
 message WorldConfiguration {
   float radius = 1;
