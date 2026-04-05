@@ -6,7 +6,5 @@ option java_multiple_files = true;
 option java_outer_classname = "WorldConfigurationProto";
 
 message WorldConfiguration {
-  float radius = 1;
-  int32 count_hex = 2;
-  int32 subdivisions = 3;
+  int32 world_size = 1;
 }
