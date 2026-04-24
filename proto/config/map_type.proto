@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package proto.config;
+
+option java_multiple_files = true;
+option java_outer_classname = "MapTypeProtoOuter";
+
+enum MapTypeProto {
+  Sphere = 0;
+}

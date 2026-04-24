@@ -5,7 +5,10 @@ package proto.config;
 option java_multiple_files = true;
 option java_outer_classname = "WorldConfigurationProtoOuter";
 
+import "proto/config/world_size.proto";
+import "proto/config/map_type.proto";
+
 message WorldConfigurationProto {
-  int32 world_size = 1;
-  int32 map_type = 2;
+  proto.config.WorldSizeProto world_size = 1;
+  proto.config.MapTypeProto map_type = 2;
 }

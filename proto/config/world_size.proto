@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package proto.config;
+
+option java_multiple_files = true;
+option java_outer_classname = "WorldSizeProtoOuter";
+
+enum WorldSizeProto {
+  Small = 0;
+  Standard = 1;
+}
