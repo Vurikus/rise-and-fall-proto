@@ -7,5 +7,5 @@ option java_outer_classname = "ErrorMessageProtoOuter";
 
 message ErrorMessageProto {
   string code = 1;
-  string message = 2;
+  repeated string params = 2;
 }
