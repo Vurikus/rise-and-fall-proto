@@ -7,8 +7,8 @@ option java_outer_classname = "TileKeyProtoOuter";
 
 message TileKeyProto {
   string id = 1;
-  float xNormal = 2;
-  float yNormal = 3;
-  float zNormal = 4;
+  float x_normal = 2;
+  float y_normal = 3;
+  float z_normal = 4;
   repeated string neighbor_ids = 5;
 }
